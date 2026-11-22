@@ -133,7 +133,7 @@ DEFAULT_PLANS = [
     {"days": 1, "price": "19"},
     {"days": 7, "price": "49"},
     {"days": 30, "price": "149"},
-    {"days": 90, "price": "399"},
+    {"days": 90, "price": "349"},
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
