@@ -92,7 +92,7 @@ def _env_int(name: str, default: int) -> int:
 
 MAIN_BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()                 # @BotFather se mila hosting bot ka token
 ADMIN_ID = _env_int("ADMIN_ID", 0)   # Aapka Telegram numeric user ID
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "karan_shukla_36").strip().lstrip("@")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", @godzilla_hacker").strip().lstrip("@")
 PAY_API_KEY = os.getenv("PAY_API_KEY", "").strip()                  # (optional) payment API key
 CHILD_UID = _env_int("CHILD_UID", 65534)   # hosted bots ka unprivileged UID (0 = band)
 
@@ -108,7 +108,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 DB_PATH = os.path.join(DATA_DIR, "hosting.db")
 HOST_DIR = os.path.join(DATA_DIR, "hosted_files")
 
-BRAND = "PRIME HOSTING"
+BRAND = "MAYANK HOSTING"
 VERSION = "17.0"
 FREE_BOT_LIMIT = 2
 PREMIUM_BOT_LIMIT = 10
@@ -128,7 +128,7 @@ COIN_COST_DEFAULT = 5
 CLONE_PRICE_DEFAULT = "60"
 EMOJI_BACKUP_EVERY = 6 * 3600
 
-DEFAULT_CHANNELS = ["@yt_honter17", "@ghost16karan", "@yt_karan2010"]
+DEFAULT_CHANNELS = ["@godzillapannelhub_bot", "https://t.me/godzillapannelhub"]
 DEFAULT_PLANS = [
     {"days": 1, "price": "19"},
     {"days": 7, "price": "49"},
