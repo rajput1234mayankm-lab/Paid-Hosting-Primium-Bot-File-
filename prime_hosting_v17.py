@@ -108,7 +108,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 DB_PATH = os.path.join(DATA_DIR, "hosting.db")
 HOST_DIR = os.path.join(DATA_DIR, "hosted_files")
 
-BRAND = "MAYANK HOSTING"
+BRAND = "MAYANKS HOSTING"
 VERSION = "19.0"
 FREE_BOT_LIMIT = 2
 PREMIUM_BOT_LIMIT = 10
