@@ -109,7 +109,7 @@ DB_PATH = os.path.join(DATA_DIR, "hosting.db")
 HOST_DIR = os.path.join(DATA_DIR, "hosted_files")
 
 BRAND = "MAYANK HOSTING"
-VERSION = "19.0"
+VERSION = "17.0"
 FREE_BOT_LIMIT = 2
 PREMIUM_BOT_LIMIT = 10
 FREE_LOG_LINES = 30
