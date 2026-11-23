@@ -92,7 +92,7 @@ def _env_int(name: str, default: int) -> int:
 
 MAIN_BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()                 # @BotFather se mila hosting bot ka token
 ADMIN_ID = _env_int("ADMIN_ID", 0)   # Aapka Telegram numeric user ID
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", @godzilla_hacker").strip().lstrip("@")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", godzilla_hacker").strip().lstrip("@")
 PAY_API_KEY = os.getenv("PAY_API_KEY", "").strip()                  # (optional) payment API key
 CHILD_UID = _env_int("CHILD_UID", 65534)   # hosted bots ka unprivileged UID (0 = band)
 
