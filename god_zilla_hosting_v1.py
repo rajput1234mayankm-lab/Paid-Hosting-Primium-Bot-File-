@@ -4908,7 +4908,7 @@ async def on_startup():
     init_db()
     harden_data_dirs()
     try:
-        os.chmod(HOST_DIR, 0o700)
+        os.chmod(HOST_DIR, 0o711)
     except OSError:
         pass
     try:
