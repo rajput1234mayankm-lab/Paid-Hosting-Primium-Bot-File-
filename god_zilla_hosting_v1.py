@@ -3289,8 +3289,8 @@ async def admin_input_handler(msg: Message, state: FSMContext):
 
     if action in ("limit_free", "limit_prem"):
         n = parse_int(text)
-        if n is None or not 1 <= n <= 1000:
-            return await msg.answer("❌ 1 se 1000 ke beech ka number bhejo.")
+        if n is None or not 0 <= n <= 1000:
+            return await msg.answer("❌ 0 se 1000 ke beech ka number bhejo.")
         set_setting("free_limit" if action == "limit_free" else "premium_limit", n)
         await state.clear()
         return await msg.answer(f"✅ {'Free' if action == 'limit_free' else 'Premium'} limit ab <b>{n}</b> bots hai.", reply_markup=back)
