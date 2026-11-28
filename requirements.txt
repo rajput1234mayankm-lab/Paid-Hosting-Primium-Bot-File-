@@ -1,3 +1,4 @@
+
 aiogram>=3.7,<4
 aiohttp>=3.9
 psutil>=5.9
@@ -5,3 +6,4 @@ asyncssh>=2.14
 Pillow>=10.0
 pyTelegramBotAPI>=4.20
 python-telegram-bot>=21.0
+beautifulsoup4>=4.12
